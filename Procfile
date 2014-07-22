@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath="$PWD/scanner_frontend" config.wsgi:application
